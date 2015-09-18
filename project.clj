@@ -6,4 +6,6 @@
   :dependencies [
                  [org.clojure/clojure "1.6.0"]
                  [org.clojure/tools.logging "0.3.1"]
-                 [org.clojure/core.typed "0.3.0"]])
+                 [org.clojure/core.typed "0.3.0"]
+                 [org.slf4j/slf4j-api "1.6.2"]
+                 ])
