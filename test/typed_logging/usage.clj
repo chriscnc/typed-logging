@@ -5,6 +5,7 @@
     [typed-logging.annotations :refer :all]
     ))
 
+
 (defn slf4j-api-interface 
   "Cover usage of the slf4j-api interface for the purpose of verifying 
   annotations."
