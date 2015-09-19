@@ -1,6 +1,6 @@
-(defproject chriscnc/typed-logging "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject chriscnc/typed-logging "0.5.1-SNAPSHOT"
+  :description "A Clojure library that provides core.typed annotations for the clojure.tools.logging library"
+  :url "https://github.com/chriscnc/typed-logging"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [
