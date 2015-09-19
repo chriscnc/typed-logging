@@ -17,7 +17,7 @@ Simply require the annotation into the modules that do logging.
 
 ### Installation
 
-typed-logging is available on [Clojars](https://clojars.org/org.clojars.chriscnc/typed-logging)
+typed-logging is available on [Clojars](https://clojars.org/chriscnc/typed-logging)
 
 ```clojure
 [chriscnc/typed-logging "0.5.0"]
