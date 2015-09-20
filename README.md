@@ -4,7 +4,7 @@ A Clojure library that provides core.typed annotations for the clojure.tools.log
 
 ## Usage
 
-Simply require the annotation into the modules that do logging.
+Simply require the annotations into the modules that do logging.
 
 ```clojure
 (ns example.logging
