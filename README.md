@@ -15,7 +15,7 @@ Simply require the annotations into the modules that do logging.
 ;; should satify the type-checker
 ```
 
-All macros provided by the underlying [slf4j-api](http://www.slf4j.org/api/org/slf4j/Logger.html) via the clojure.toos.logging namespace are known to type-check.  However, the clojure.tools.logging namespace provides other macros that extend this interface and are known not to type-check with these annotations.  To use the less common clojure.tools.logging macros, wrap their usage in tc-ignore.
+All macros provided by the underlying [slf4j-api](http://www.slf4j.org/api/org/slf4j/Logger.html) via the clojure.toos.logging namespace are known to type-check.  However, the clojure.tools.logging namespace provides other macros that extend this interface and are known not to type-check with these annotations.  To use those less common macros, wrap their usage in tc-ignore.
 
 ### Installation
 
