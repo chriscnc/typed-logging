@@ -2,6 +2,7 @@
   "Usage code that can be type-checked to make sure the annotations work."
   (:require 
     [clojure.tools.logging :as log]
+    [clojure.core.typed :as t]
     [typed-logging.annotations :refer :all]
     ))
 
@@ -39,5 +40,6 @@
 
   (log/enabled? :info)
   (log/enabled? :info *ns*))
+
 
 
