@@ -9,7 +9,7 @@ Simply require the annotations into the modules that do logging.
 ```clojure
 (ns example.logging
   (:require [clojure.tools.logging :as log]
-            [type-logging.annotations :refer :all]))
+            [typed-logging.annotations :refer :all]))
 
 ;; use the logging library as usual. The referred annotations
 ;; should satify the type-checker
